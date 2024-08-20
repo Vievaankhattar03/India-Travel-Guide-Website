@@ -1,0 +1,21 @@
+#state-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.state {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.state:hover {
+    background-color: #e0e0e0;
+}
+
+#city-list {
+    margin-top: 20px;
+}
